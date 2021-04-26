@@ -1,0 +1,144 @@
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+
+#header-nav{
+    background-color: #8f8f8f;
+    border-radius: 0;
+    border: 0;
+}
+
+
+
+.navbar-brand{
+    margin: 10px 0 20px 0;
+}
+
+.navbar-brand h1{
+    color: #000000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+
+#nav-list{
+    margin: 10px 0 0 0;
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+#nav-list li{
+    border: 2px solid black;
+}
+
+#nav-lis hr{
+    width: 100%;
+}
+
+#nav-list a{
+    color: #000000;
+    text-align: center;
+}
+
+#nav-list a:hover{
+    background: #e7e7e7;
+}
+
+h1{
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#menu{
+    background-color: #8f8f8f;
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 10px;
+}
+
+#menu h3{
+    text-align: center;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu .aa{
+    color: rgb(50, 117, 205);
+}
+
+#collapsable-nav{
+    padding: 0;
+}
+
+#menu span{
+    margin-right: 5px;
+}
+
+
+
+
+
+/* large devices only */
+@media (min-width: 1200px){
+
+}
+
+
+/* medium devices only */
+@media (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+
+/* small devices only */
+@media (min-width: 768px) and (max-width: 991px){
+    .navbar-toggle {
+        margin-top: 22px;
+    }
+    #nav-lis hr {
+        width: 100%;
+    }
+}
+
+/* extra small devices */
+@media (max-width: 767px){
+
+    .navbar-toggle {
+        margin-top: 22px;
+    }
+    #nav-lis hr {
+        width: 100%;
+    }
+ 
+    /* .navbar-brand{
+
+    }
+
+
+    .navbar-brand h1{
+   
+    }
+
+    .navbar-brand p{
+   
+    } */
+
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+}
